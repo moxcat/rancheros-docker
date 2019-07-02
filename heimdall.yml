@@ -7,7 +7,7 @@ rancher:
         environment:
           PUID: 1020
           PGID: 1020
-          TZ: Europe/Stockholm
+          TZ: America/New_York
         volumes:
         - /mnt/nfs-1/config/heimdall:/config
         ports:
