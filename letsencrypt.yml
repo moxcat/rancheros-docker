@@ -11,11 +11,11 @@ rancher:
       environment:
         PUID: 1020
         PGID: 1020
-        TZ: Europe/Stockholm
-        URL: duckdns.org
-        SUBDOMAINS: fruit-nextcloud
+        TZ: America/New_York
+        URL: moxcat.com
+        SUBDOMAINS: nc
         VALIDATION: http
-        EMAIL: user@fruit.org
+        EMAIL: charlie@moxcat.com
         ONLY_SUBDOMAINS: 'true'
       ports:
       - 443:443

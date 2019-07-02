@@ -9,7 +9,7 @@ rancher:
       environment:
         PGID: 1020
         PUID: 1020
-        TZ: Europe/Stockholm
+        TZ: America/New_York
       ports:
       - 1443:443
       volumes:
